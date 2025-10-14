@@ -3,4 +3,6 @@ layout: home
 title: Welcome
 ---
 
-This site is under construction.
+# Coming Soon
+
+This site is under construction. Stay tuned!
