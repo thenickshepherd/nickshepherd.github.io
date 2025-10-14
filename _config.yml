@@ -2,3 +2,6 @@ remote_theme: dieghernan/chulapa
 
 plugins:
   - jekyll-remote-theme
+
+title: Nick Shepherd
+description: Coming soon…
