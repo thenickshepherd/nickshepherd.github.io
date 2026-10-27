@@ -30,6 +30,10 @@
 
 @layer components {
 
+	#S-face, #S-depth {
+		transition: fill 1s ease;
+	}
+
 	h1 {
 		font-family: "Outfit", sans-serif;
 	}
@@ -59,12 +63,20 @@
 		color: #FFB000;
 	}
 
+	.navy #S-depth {
+		fill: #FFB000;
+	}
+
 	.orange {
 		background: #F5B83D;
 	}
 
 	.orange .main__logo-subtitle {
 		color: #0B1F3A;
+	}
+
+	.orange #S-depth {
+		fill: #0B1F3A;
 	}
 
 	.green {
@@ -75,6 +87,10 @@
 		color: #EFBF04;
 	}
 
+	.green #S-depth {
+		fill: #EFBF04;
+	}
+
 	.blue {
 		background-color: #457B9D;
 	}
@@ -82,6 +98,11 @@
 	.blue .main__logo-subtitle {
 		color: #FFDD44;
 	}
+
+	.blue #S-depth {
+		fill: #FFDD44;
+	}
+
 	
 	.red {
 		background-color: #B3322F;
@@ -91,6 +112,11 @@
 		color: #9FE0C4;
 	}
 
+	.red #S-depth {
+		fill: #9FE0C4;
+	}
+
+
 	.purple {
 		background-color: #8A3FA8;
 	}
@@ -99,12 +125,20 @@
 		color: #F6EFE3;
 	}
 
+	.purple #S-depth {
+		fill: #F6EFE3;
+	}
+
+	.main__logo-icon svg {
+		margin: 0 auto;
+	}
+
 	.main__logo-subtitle {
-		transition: color 0.5s ease-in-out;
+		transition: color 1s ease;
 	}
 
 	.background-transition {
-		transition: background-color 0.5s ease-in-out;
+		transition: background-color 1s ease;
 
 	}
 
@@ -154,7 +188,7 @@
 			color: #fff;
 			text-decoration: none;
 			border-radius: 4px;
-			transition: background-color 0.3s ease, color 0.3s ease;
+			transition: background-color 1s ease, color 1s ease;
 			border: 1px solid #fff;
 	}
 
