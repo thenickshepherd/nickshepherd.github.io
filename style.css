@@ -30,6 +30,9 @@
 
 @layer components {
 
+	h1 {
+		font-family: "Outfit", sans-serif;
+	}
 
 	body {
 			background-color: #101010;
@@ -44,15 +47,31 @@
 		background-color: #101010;
 	}
 
-	.black .dot {
+	.black .main__logo-subtitle {
 		color: #FA982E;
+	}
+
+	.navy {
+		background-color: #0B1F3A;
+	}
+
+	.navy .main__logo-subtitle {
+		color: #FFB000;
+	}
+
+	.orange {
+		background: #F5B83D;
+	}
+
+	.orange .main__logo-subtitle {
+		color: #0B1F3A;
 	}
 
 	.green {
 		background-color: #2A7F5E;
 	}
 
-	.green .dot {
+	.green .main__logo-subtitle {
 		color: #EFBF04;
 	}
 
@@ -60,7 +79,7 @@
 		background-color: #457B9D;
 	}
 
-	.blue .dot {
+	.blue .main__logo-subtitle {
 		color: #FFDD44;
 	}
 	
@@ -68,7 +87,7 @@
 		background-color: #B3322F;
 	}
 
-	.red .dot {
+	.red .main__logo-subtitle {
 		color: #9FE0C4;
 	}
 
@@ -76,11 +95,11 @@
 		background-color: #8A3FA8;
 	}
 
-	.purple .dot {
+	.purple .main__logo-subtitle {
 		color: #F6EFE3;
 	}
 
-	.dot {
+	.main__logo-subtitle {
 		transition: color 0.5s ease-in-out;
 	}
 
@@ -118,9 +137,10 @@
 
 	.main__logo-subtitle {
 		color: #d0d0d0;
-		font-style: italic;
-		font-size: clamp(1rem, 4vw, 1.5rem); 
-		font-weight: 300;
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+		font-weight: 500;
+		font-size: clamp(1rem, 4vw, 1.2rem); 
 		margin: 0;
 	}
 
